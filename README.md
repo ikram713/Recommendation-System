@@ -2,13 +2,13 @@
 
 A simple and lightweight machine learning project that recommends Udemy courses based on your selection using content-based filtering. Built with an interactive UI using **Streamlit**.
 
----
+
 
 ## 📖 About This Project
 
 I created this project while learning about **machine learning**. It's a simple **course recommendation system** that suggests Udemy courses based on the course title you choose. The goal was to apply what I learned in a small but useful project with a working user interface.
 
----
+
 
 ## ✅ Features
 
@@ -17,7 +17,7 @@ I created this project while learning about **machine learning**. It's a simple 
 - Fast and lightweight — no complex model training required.
 - Built with a clean and simple **Streamlit** interface.
 
----
+
 
 ## 🔍 How It Works
 
@@ -27,29 +27,6 @@ I created this project while learning about **machine learning**. It's a simple 
 4. The system calculates **cosine similarity** between the selected course and all others.
 5. It displays the **top 5 most similar** course titles as recommendations.
 
----
-
-## 🚀 Getting Started
-
-### 📦 Clone the repository
-
- # git clone https://github.com/ikram713/Recommendation-System.git
-
-"cd Recommendation-System
-
-### 📥 Install dependencies
-
-pip install -r requirements.txt
-
-### ▶️ Run the application
-
-streamlit run app.py
-
-### 📂 Project Structure:
-├── app.py               # Main Streamlit application
-├── requirements.txt     # Python dependencies
-├── udemy_courses.csv    # Dataset (custom or downloaded)
-├── README.md            # This file
 
 
 
