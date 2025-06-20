@@ -33,8 +33,9 @@ I created this project while learning about **machine learning**. It's a simple 
 
 ### 📦 Clone the repository
 
-git clone https://github.com/ikram713/Recommendation-System.git
-cd Recommendation-System
+ # git clone https://github.com/ikram713/Recommendation-System.git
+
+"cd Recommendation-System
 
 ### 📥 Install dependencies
 
