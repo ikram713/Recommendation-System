@@ -1,22 +1,63 @@
- About This Project : 
+# 📚 Udemy Course Recommendation System
+
+A simple and lightweight machine learning project that recommends Udemy courses based on your selection using content-based filtering. Built with an interactive UI using **Streamlit**.
+
+---
+
+## 📖 About This Project
 
 I created this project while learning about **machine learning**. It's a simple **course recommendation system** that suggests Udemy courses based on the course title you choose. The goal was to apply what I learned in a small but useful project with a working user interface.
 
 ---
 
- ✅ Features
+## ✅ Features
 
-- Recommends similar Udemy course titles based on your selection.
-- Uses content-based filtering (based on course title and subject).
-- Fast and lightweight — no complex model training.
-- Built with a simple and interactive UI using Streamlit.
+-  Recommends similar Udemy course titles based on your selection.
+-  Uses content-based filtering (based on course title and subject).
+-  Fast and lightweight — no complex model training required.
+-  Built with a clean and simple **Streamlit** interface.
 
 ---
 
-## 🔍 How It Works
+##  How It Works
 
 1. The user selects a course title from a dropdown list.
-2. The system uses a combination of the **course title** and **subject** to represent the course.
-3. Text is converted into numerical form using **CountVectorizer** (bag-of-words model).
-4. It calculates **cosine similarity** between courses.
-5. It shows the top 5 most similar course titles as recommendations.
+2. The system uses the **course title** and **subject** to represent each course.
+3. Text data is transformed into vectors using **CountVectorizer** (bag-of-words model).
+4. The system calculates **cosine similarity** between the selected course and all others.
+5. It displays the **top 5 most similar** course titles as recommendations.
+
+---
+
+## 🚀 Getting Started
+
+### 📦 Clone the repository
+
+```bash
+git clone https://github.com/ikram713/RecommandationSystem.git
+cd your-repo-name
+
+
+### 📥 Install requirements
+
+```bash
+pip install -r requirements.txt
+
+▶️ Run the application
+bash
+Copier
+Modifier
+streamlit run app.py
+
+
+📂 Project Structure
+bash
+Copier
+Modifier
+├── app.py                  # Main Streamlit application
+├── requirements.txt        # Python dependencies
+├── udemy_courses.csv       # Dataset (custom or downloaded)
+├── README.md               # This file
+
+
+
